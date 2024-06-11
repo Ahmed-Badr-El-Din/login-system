@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+   
+    <title>Loginin </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+   
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="./css/all.min.css" />
+
+    <link rel="stylesheet" href="./css/mediaQuary.css" />
+    
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+    
+        
+
+        <nav class="navbar  container-fluid d-none ">
+            <div class="container ">
+                <h1 class="text-uppercase">smart login</h1>
+                <div class="button text-center">
+                    <button type="button" class="logoutBtn w-100"  onclick="logout()">Logout</button>
+                </div>
+                
+            </div>
+        </nav>
+
+        <header class="home container " id="home">
+            <div class="homeContent ">
+
+                
+
+
+            <form class="siteForm signForm w-75  mx-auto p-5 m-5 ">
+                <div class="formTitle text-center my-5">
+                    <h1>
+                        Smart Login system
+                    </h1>
+                </div>
+                <div class="mb-3">
+
+                    <input type="text" class="form-control" id="userName" name="username" placeholder="Enter your Name" required>
+                </div>
+                <div class="mb-3">
+
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email" required>
+            
+                </div>
+
+                <div class="mb-5">
+                
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+                
+                </div>
+
+                <p class="signUpMesg text-center"></p>
+
+                <div class="button text-center">
+                    <button type="button" class="btn signUpBtn w-100" id="Btn" onclick="pageName()">Sign Up</button>
+                </div>
+
+                <div class="d-flex justify-content-center flex-wrap">
+                    <p class="text-center whiteMsg  mt-4">You have an account? </p>
+                    <button type="button" class=" haveAccBtn " id="footerBtn">Sign in</button>
+                </div>
+            
+            </form>
+
+                
+
+
+            <form class="siteForm welcomePage w-75  mx-auto p-5 m-5 d-none ">
+                
+                <div class="formTitle text-center my-5">
+                    <h2>
+                        welcome sherry
+                    </h2>
+                </div>
+
+            
+                <p class="signUpMesg text-center"></p>
+
+            </form>
+
+                
+            </div>
+
+        </header>
+
+            
+
+
+
+
+    
+    <script src="./javascript/bootstrap.bundle.min.js"></script>
+    <script src="./javascript/main.js"></script>
+
+</body>
+</html>

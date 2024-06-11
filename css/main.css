@@ -1,0 +1,122 @@
+
+
+
+body{
+font-family: "Titillium Web", sans-serif;
+    background: rgb(36, 53, 63);
+    color: white;
+}
+
+header{
+    height: 100vh;
+}
+
+.card{
+   background-color: rgb(36, 53, 63);
+}
+
+h1 , h2{
+    color: rgb(23, 162, 184);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(36, 53, 63);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+input{
+    color: white !important;
+    background-color: transparent !important;
+}
+
+::placeholder{
+    color: rgb(159, 153, 153) !important;
+
+}
+
+form{
+
+    box-shadow: 1px 1px 20px 8px rgb(25, 26, 26);
+
+}
+
+.btn{
+    background-color: rgb(36, 53, 63);
+    color: rgb(23, 162, 184);
+    border: 1px solid rgb(23, 162, 184);
+    transition: all 500ms;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(23, 162, 184);
+}
+
+.navbar h1 {
+    color: white;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    font-size: 1.25rem;
+  
+}
+
+.navbar{
+    box-shadow: 1px 1px 20px 8px rgb(25, 26, 26);
+    height: 56px;
+    padding: 8px 16px;
+}
+
+.logoutBtn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #ffc107;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    background-color: transparent;
+    color: gray;
+    transition: all 500ms;
+
+}
+
+.logoutBtn:hover{
+    color: white;
+    background-color: #ffc107;
+}
+
+
+#footerBtn{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    transition: all 500ms;
+    margin-top: 24px;
+    padding-block: 0;
+    height: 24px;
+}
+
+#footerBtn:hover{
+
+    border-bottom: 1px white solid;
+}
